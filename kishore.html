@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore</title>
+    <link rel="icon" href="https://drive.google.com/uc?id=11mNnTCbLotwP6faEwnQikOmuH9VeT92k" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://drive.google.com/uc?id=1Nsb8RydVEm8-_TgRvhml2EW-YjhjLMN6');
+
+}
+
+.main_wrapper{
+
+
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.main_wrapper .row{
+
+    height: 100%;
+}
+
+.main_wrapper .row .vCard_wrapper{
+    gap: 0px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    height: 100%;
+    width: 420px;
+ 
+    margin-top: 0;
+    padding: 0;
+
+}
+.vCard_wrapper{
+ 
+    background-color: white;
+
+}
+.dr_garcia_image_wraper{
+
+  
+    position: relative;
+    border-radius: 0 0 0 250px;
+    height: 350px;
+    overflow: hidden;
+    background-image: url('https://drive.google.com/uc?id=1XDQaqKTbTtbTqmBgHTUHcuwy4gBSeE1I');
+    background-size:cover;
+    background-position: 5%;
+   
+    background-repeat: no-repeat;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+                            border-bottom: 10px solid #4293d1;
+                            border-left: 1px solid #4293d1;
+                            box-shadow: rgba(3, 50, 139, 0.35) 0px 5px 15px;
+}
+.dr_garcia_image_wraper .logo{
+    position: absolute;
+    top: 18px;
+    height: 15%;
+    z-index: 1;
+
+}
+
+
+
+.addToContactBtn{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   border-radius: 30px;
+   margin-bottom: 150px;
+   margin-top: 40px;
+    background-color: #4293d1;
+
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+
+
+}
+.addToContactBtn:hover{
+    background-color: #2f79cb;
+    
+}
+
+.addToContactBtn span{
+
+    background-color: white;
+    padding: 8px;
+    height: 30px;
+    width: 30px;
+   
+    border-radius: 50%;
+    margin-right: 10px;
+   
+    
+}
+.addToContactBtn span i{
+    color:#4293d1 ;
+    font-size: 1.2rem;
+}
+
+
+
+.add_to_contact{
+ 
+    margin-top: 50px;
+    height: 70px;
+
+}
+
+.social_media_icons{
+    margin-bottom: 10px;
+ 
+    
+}
+.social_media_icons .row{
+    height: fit-content;
+
+    margin-top: 10px;
+
+
+
+}
+.social_media_icons .row div a{
+    text-decoration: none;
+
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.follow_up{
+
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.follow_up p{
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #4293d1;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.follow_up::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 40px solid #4293d1;
+    border-bottom: 5px solid transparent;
+}
+
+.follow_up::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 40px solid #4293d1;
+    border-bottom: 5px solid transparent;
+}
+
+.description{
+    /* padding: 15px; */
+    padding: 0 10px 0 10px;
+   
+}
+.description p{
+
+    text-align: center;
+    color: #525254;
+    font-size: 0.8rem;
+}
+.description p:last-child{
+
+  
+    margin-top: -15px;
+}
+
+.vCard_wrapper h1{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.website a{
+ 
+    color: #0959a9;
+
+   
+
+
+}
+.website a:hover{
+    color: #0959a9;
+    
+
+
+}
+
+.facebook a{
+    color: #2f7cf9;
+}
+.facebook a:hover{
+    color: #1365bd;
+}
+
+.instagram a{
+  
+    color: #e8714c ;
+
+   
+
+}
+.instagram a:hover{
+  
+    color: #c04a26 ;
+   
+}
+
+.twitter a{
+    color: #0f1419;
+}
+.twitter a:hover{
+    color: #0a0d10;
+}
+
+.linkedin a{
+    color: #0b66c2;
+}
+.linkedin a:hover{
+    color: #0959a9;
+}
+
+.youtube a{
+    color: #e54803;
+}
+.youtube a:hover{
+    color: #bf3c04;
+}
+
+.tiktok a{
+    color: #000000;
+}
+.tiktok a:hover{
+    color: #000000;
+}
+
+.pinterest a{
+    color: #e54924;
+}
+.tikpinteresttok a:hover{
+    color: #d43f19;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .main_wrapper .row .vCard_wrapper{
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .main_wrapper .row .vCard_wrapper{
+        height: 700px;
+    }
+    .addToContactBtn{
+        margin-bottom: 120px;
+        margin-top: 0;
+    }
+    .dr_garcia_image_wraper{
+        min-height: 240px;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (max-width: 1026px){
+    .main_wrapper .row .vCard_wrapper{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 281px){
+            .vCard_wrapper h1{
+               
+                font-size: 1.8rem;
+            }
+            .social_media_icons .row .col a{
+                font-size: 1.1rem;
+               
+            }
+
+            
+            .add_to_contact a{
+                padding: 10px;
+                font-size: 0.8rem;
+            }
+            .add_to_contact a span{
+                height: 5px;
+                width: 5px;
+              
+                padding: 5px;
+               
+            }
+            .add_to_contact a span i{
+                font-size: 0.7rem;
+                padding: 0;
+            }
+        }
+</style>
+  
+
+    <div class="container-fluid main_wrapper">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6 vCard_wrapper d-flex justify-content-start align-items-center flex-column">
+                <div class="dr_garcia_image_wraper d-flex">
+                   
+                </div>
+                <h1>Kishore Kumar Mahto</h1>
+                <div class="description d-flex justify-content-center align-items-center flex-column">
+                    <p>A proficient full-stack developer with expertise in Python and web development.</p>
+                <p>Excels in creating robust web applications, ensuring seamless user experiences with a dedication to staying updated on industry trends.</p>
+                </div>
+
+                <div class="social_media_wraper d-flex align-items-center justify-content-center flex-column">
+                    <div class="follow_up d-flex ">
+                        <p>Follow me</p>
+                    </div>
+                    <div class="social_media_icons">
+                      <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col tiktok"><a href="https://github.com/iamkishoremahto" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                        
+                        
+                        <div class="col linkedin"><a href="https://www.linkedin.com/in/kishore-mahto-843529228/" target ="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div> 
+                    </div>
+                     
+
+                    </div>
+
+                </div>
+
+                <div class="add_to_contact d-flex justify-content-center align-items-center">
+                    <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Kishore%20Kumar%20Mahto%0AN:Mahto;Kishore;Kumar;;%0AEMAIL;TYPE=INTERNET:iamkishoremahto@gmail.com%0AX-ABLabel:Personal%0ATEL:83403%2017197%0AX-ABLabel:%0ATEL;TYPE=CELL:83403%2017197%0ATITLE:Software%20Engineer%0AX-ABLabel:%0ABDAY:19970904%0ACATEGORIES:myContacts%0AEND:VCARD" class="addToContactBtn"><span><i class="fa-solid fa-user"></i></span>Access links by Saving to Contacts</a>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
